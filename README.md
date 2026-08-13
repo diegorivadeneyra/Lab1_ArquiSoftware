@@ -60,7 +60,7 @@ Clientes: ESSALUD
 - Recogida de resultado durante cierre de turno
 - 
 
-Requerimiento F: 
+Requerimiento F: ss
 
 Requerimiento NF:  Backup de cloude mientras no haiga servicio de internet
 
