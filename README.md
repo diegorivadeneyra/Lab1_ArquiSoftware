@@ -1,67 +1,58 @@
-## Lab1_ArquiSoftware
+# Usuarios / Clientes
 
-# Usuarios/Clientes 
+## Usuarios del sistema
 
-usuarios: Doctores, Internos, Enfermeros.
+- Doctores
+- Enfermeros
+- Internos
 
-Clientes: ESSALUD
+## Clientes
 
-# Definición de Problema  
+- ESSALUD
 
-- Cruce de horarios
-- Tranmsiion de diacnostigos
-- Capacidad de enfermeros
-- Alertas de emergencias
+### Doctores
 
-# Personas/Usuarios Modelo 
+Los doctores utilizan el sistema para consultar y actualizar información clínica de los pacientes, registrar diagnósticos y gestionar planes de tratamiento.
 
-- Doctor especialista: Beatriz Quiroz,  10 años de estudio y especialidad, 38 - 70 años, Medico especialista en X 
+### Enfermeros
 
- Rol:   
- -- Hacer analisis o muestreo
- -- Actulizacion de resultados en BD
+Los enfermeros utilizan el sistema para consultar indicaciones médicas, administrar medicamentos, registrar información sobre el estado de los pacientes y comunicar situaciones relevantes.
 
-- Doctor de turno: Jose Atahualpa, 10 años de estudio y especialidad, 38 - 70 años, Medico Intensivistas
+### Internos
 
- Rol:   
- -- Doxeo a pacientes
- -- Diagnostica 
- -- Plan de tratamiento
- -- Reacion en caso de Super emergencia
+Los internos utilizan el sistema para apoyar al personal médico y de enfermería durante sus actividades dentro de la UCI, siempre bajo supervisión.
 
-- Enfermero en jefe: Juan Torres, 8 años de estudio, 30 - 70 años 
+### ESSALUD
 
- Rol:   
- -- Gestion del plan de tratamiento
- -- Administracion de efnfermeros
- -- Logistica del material
- -- Actuar en caso de emergencia 
-
-- Enfermero: Anderson Carcamo, 7 años de estudio, 28 - 40 años 
-
- Rol:   
- -- Administracion de medicinas
- -- Notificar de molestias de los pacientes
- -- Diacnosticos por verificar
- -- Autoridad sobre los internos 
-
-- Internos: Mauro Bobadilla, estudiante activo, 23 - 28 años, 
-
- Rol:   
- -- Capacitacion dentro de emergencia
- -- Notificacion periodica de su ubicacion 
- -- Ayuda en lo necesario y/o prioritario
-
-# Requerimientos F y NF
-
-- Orden de prioridad interconsulta (Actulizacion tras cada salida de paciente)
-- Subida e impresion de diagnostico. (Margen de tiempo)
-- Pruebas de medicion posen subida automatica
-- Recogida de resultado durante cierre de turno
-- 
-
-Requerimiento F: ss
-
-Requerimiento NF:  Backup de cloude mientras no haiga servicio de internet
+ESSALUD es el cliente y organización responsable de implementar y utilizar el sistema para mejorar la gestión de horarios, diagnósticos, tratamientos y situaciones de emergencia dentro de las UCI.
 
 
+# Definición del Problema
+
+ESSALUD está desarrollando un piloto para mejorar la gestión de los sistemas utilizados en las Unidades de Cuidados Intensivos (UCI).
+
+El principal problema identificado es la dificultad para gestionar los horarios del personal médico y de enfermería, especialmente debido a la alta rotación de médicos internistas.
+
+Esta situación puede dificultar la continuidad de la atención, debido a que los diagnósticos, resultados y planes de tratamiento registrados durante un turno deben estar disponibles para el personal responsable del siguiente turno.
+
+## Problemas identificados
+
+### 1. Cruce de horarios
+
+Existe la necesidad de gestionar correctamente los horarios y turnos de médicos y enfermeros para evitar conflictos y garantizar la cobertura de la UCI.
+
+### 2. Transmisión de diagnósticos
+
+Los diagnósticos y planes de tratamiento deben estar disponibles para el personal del siguiente turno.
+
+### 3. Gestión del personal de enfermería
+
+Es necesario conocer la disponibilidad y asignación de los enfermeros para garantizar una adecuada atención de los pacientes.
+
+### 4. Alertas de emergencia
+
+Ante una situación crítica, el sistema debe facilitar la comunicación con el médico o personal responsable.
+
+### 5. Actualizaciones en tiempo real
+
+Los cambios importantes relacionados con diagnósticos, tratamientos y estado de los pacientes deben estar disponibles oportunamente para los usuarios autorizados.
