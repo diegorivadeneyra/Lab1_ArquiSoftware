@@ -1,6 +1,6 @@
 # Requerimientos Funcionales
 
-RF-01 - El sistema tendra un rol por cada gerarquia de los usuarios.
+RF-01 - El sistema tendra un rol por cada jerarquia de los usuarios donde todos tendran el permiso de ver y unicamento los doctores y el enfermero en jefe tambien podran actualizar o modificar.
 
 RF-02 - El sistema deberá permitir registrar, consultar y modificar los horarios y turnos del personal médico y de enfermería.
 
