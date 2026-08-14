@@ -1,30 +1,14 @@
 # Requerimientos Funcionales
 
-RF-01 -  
-RF-02 - 
-RF-03 - 
-RF-04 - 
-
-
-# Requerimientos F y NF
-
-- Sesiones por cada encargado
-- Pruebas de medicion posen subida automatica
-- Recogida de resultado durante cierre de turno
-- sistema de alerta para atención de una emergencia
-- Se activa por medio de un trigger de la alerta un llamado al telefono del doctor
-- Si no esta disponible se alerta a un especialista o el enferme en jefe 
-- interfaz y accesibilidad muy concreto
-- Viazualisacion de la hoja de vida 
-- vizualisacion de los enfermeros de turno
-- Actualizar hojas de vida
-- Subida e impresion de diagnostico. (Margen de tiempo)
-- Crea un plan de ejecucion a delegar.
-- Envio a los encargados dentro del plan
-- notificaciones por medio de toltip
-  
-Requerimiento NF:  Backup de cloude mientras no haiga servicio de internet
-
-- Orden de prioridad interconsulta (Actulizacion tras cada salida de paciente)
-- tiempo de subida e intregracion del sistema de los resultados <=30ms.
-
+RF-01 - El sistema tendra un rol por cada gerarquia de los usuarios 
+RF-02 - El sistema deberá permitir registrar, consultar y modificar los horarios y turnos del personal médico y de enfermería.
+RF-03 - El sistema deberá permitir al personal médico autorizado registrar y actualizar los diagnósticos de los pacientes.
+RF-04 - El sistema deberá permitir al personal autorizado consultar los diagnósticos registrados de un paciente.
+RF-05 - El sistema deberá permitir que el personal del turno siguiente consulte los diagnósticos y planes de tratamiento registrados durante los turnos anteriores.
+RF-06 - El sistema deberá permitir registrar los resultados de las pruebas y mediciones realizadas a los pacientes.
+RF-07 - El sistema deberá permitir registrar, consultar y actualizar los planes de tratamiento de los pacientes.
+RF-08 - El sistema deberá permitir generar alertas ante situaciones de emergencia relacionadas con los pacientes.
+RF-09 - El sistema deberá enviar notificaciones al personal correspondiente cuando ocurra un evento relevante.
+RF-10 - El sistema deberá permitir registrar, asignar y priorizar solicitudes de interconsulta según su nivel de prioridad.
+RF-11 - El sistema deberá permitir recibir y registrar automáticamente resultados provenientes de sistemas o dispositivos integrados.
+RF-12 - El sistema deberá permitir consultar la disponibilidad del personal durante un turno determinado.
