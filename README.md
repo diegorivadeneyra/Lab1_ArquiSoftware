@@ -56,3 +56,5 @@ Ante una situación crítica, el sistema debe facilitar la comunicación con el 
 ### 5. Actualizaciones en tiempo real
 
 Los cambios importantes relacionados con diagnósticos, tratamientos y estado de los pacientes deben estar disponibles oportunamente para los usuarios autorizados.
+
+## Prompt
